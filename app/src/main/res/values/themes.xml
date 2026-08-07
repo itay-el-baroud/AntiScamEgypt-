@@ -1,5 +1,3 @@
 <resources>
     <style name="Theme.AntiScamEgypt" parent="android:Theme.Material.Light.NoActionBar" />
-</style>
 </resources>
-
