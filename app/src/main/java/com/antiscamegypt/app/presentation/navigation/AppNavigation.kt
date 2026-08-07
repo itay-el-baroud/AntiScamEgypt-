@@ -1,11 +1,10 @@
 package com.antiscamegypt.app.presentation.navigation
 
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.antiscamegypt.app.presentation.main.MainScreen
 import com.antiscamegypt.app.presentation.splash.SplashScreen
 
 @Composable
@@ -43,8 +42,7 @@ fun AppNavigation() {
         }
 
         composable("main") {
-            // هنضيف Main Screen بعدين
-            Text("الصفحة الرئيسية - قريباً")
+            MainScreen()
         }
     }
 }
