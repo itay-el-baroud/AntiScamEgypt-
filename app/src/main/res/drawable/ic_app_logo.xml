@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- الدائرة الحمرا -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M54,8
+                         C28.6,8 8,28.6 8,54
+                         s20.6,46 46,46
+                         46,-20.6 46,-46
+                         S79.4,8 54,8z
+                         M54,92
+                         c-21,0 -38,-17 -38,-38
+                         s17,-38 38,-38
+                         38,17 38,38
+                         -17,38 -38,38z"/>
+    
+    <!-- السماعة البيضا -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,30
+                         c-4.4,0 -8,3.6 -8,8
+                         v14
+                         c0,4.4 3.6,8 8,8
+                         h4
+                         v10
+                         c0,2.2 1.8,4 4,4
+                         s4,-1.8 4,-4
+                         v-10
+                         h4
+                         c4.4,0 8,-3.6 8,-8
+                         V38
+                         c0,-4.4 -3.6,-8 -8,-8
+                         H38z
+                         M38,34
+                         h20
+                         c2.2,0 4,1.8 4,4
+                         v14
+                         c0,2.2 -1.8,4 -4,4
+                         H38
+                         c-2.2,0 -4,-1.8 -4,-4
+                         V38
+                         c0,-2.2 1.8,-4 4,-4z"/>
+    
+    <!-- الخط الأحمر في النص -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M46,46
+                         L62,46
+                         L62,54
+                         L46,54
+                         z"/>
+</vector>
