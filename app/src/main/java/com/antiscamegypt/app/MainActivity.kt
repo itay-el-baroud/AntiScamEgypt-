@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import com.antiscamegypt.app.presentation.navigation.AppNavigation
 import com.antiscamegypt.app.ui.theme.AntiScamEgyptTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -20,7 +21,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    // Navigation هنضيفه بعدين
+                    AppNavigation()
                 }
             }
         }
